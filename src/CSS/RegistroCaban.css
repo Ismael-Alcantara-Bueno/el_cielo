@@ -1,0 +1,42 @@
+/* RegistroCaban.css */
+.registro-caban {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .registro-caban h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registro-caban form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registro-caban label {
+    margin-bottom: 8px;
+  }
+  
+  .registro-caban input,
+  .registro-caban textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .registro-caban button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

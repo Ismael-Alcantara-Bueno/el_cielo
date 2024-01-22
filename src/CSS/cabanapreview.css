@@ -1,0 +1,53 @@
+/* TuComponente.css */
+
+.registro-caban {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-container div {
+    margin-bottom: 20px;
+  }
+  
+  .registro-caban label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .registro-caban p {
+    margin-bottom: 16px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .image-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+  }
+  
+  .image-container h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-container.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

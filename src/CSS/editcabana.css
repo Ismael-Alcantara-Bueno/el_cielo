@@ -1,0 +1,91 @@
+/* RegistroCaban.css */
+.registro-caban {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.registro-caban h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro-caban form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registro-caban label {
+  margin-bottom: 8px;
+}
+
+.registro-caban input,
+.registro-caban textarea,
+.registro-caban button,
+.registro-caban input[type="file"] {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.registro-caban button .buttonlabel {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.registro-caban input[type="file"] {
+  border: none;
+}
+
+/* TuComponente.css */
+
+.image-container {
+  background-color: transparent;
+  /* overflow-y: auto; */
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 60px;
+  margin: 1rem;
+}
+
+.image-container img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.image-container img:hover {
+  transform: scale(3);
+  position: absolute;
+}
+
+.image-container h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcontainer2{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}

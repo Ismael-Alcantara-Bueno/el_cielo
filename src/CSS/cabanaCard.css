@@ -1,0 +1,42 @@
+/* Agrega estos estilos a tu hoja de estilos existente */
+
+.compact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.compact-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.image-container {
+  height: 100px;
+  background-color: #f0f0f0;
+  margin-bottom: 12px;
+}
+
+.no-cabins {
+  text-align: center;
+}
+
+.toggle-button,
+.add-button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: #27ae60;
+}

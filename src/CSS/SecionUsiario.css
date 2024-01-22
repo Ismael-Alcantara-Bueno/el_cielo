@@ -1,0 +1,57 @@
+/* Estilos para el contenedor común */
+.contenedor {
+    position: relative;
+  }
+  
+  /* Estilos para el menú lateral */
+  .menu-lateral {
+    position: absolute;
+    top: 0;
+    left: -300px; /* Oculta el menú lateral inicialmente */
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: left 0.3s ease;
+    width: auto; /* Adaptar la anchura al contenido */
+  }
+  
+  .menu-lateral.mostrar {
+    left: 0; /* Muestra el menú lateral cuando tiene la clase 'mostrar' */
+  }
+  
+  /* Estilos para el contenido principal */
+  .contenido-principal {
+    margin-left: 0; /* No es necesario ajustar el margen izquierdo */
+    padding: 20px;
+  }
+  
+  /* Botón para mostrar/ocultar el menú */
+  .contenido-principal .buttonVer {
+    margin-bottom: 10px;
+    position: absolute;
+    top: 10px; /* Ajusta la posición del botón */
+    left: 20px; /* Ajusta la posición del botón */
+  }
+  
+  /* Media query para pantallas más pequeñas (ajusta según sea necesario) */
+  @media screen and (max-width: 768px) {
+    .menu-lateral {
+      left: -100%; /* Oculta el menú lateral en pantallas más pequeñas por defecto */
+      width: 100%; /* Ajusta la anchura al 100% del contenedor */
+    }
+  
+    .menu-lateral.mostrar {
+      left: 0; /* Muestra el menú lateral en pantallas más pequeñas cuando tiene la clase 'mostrar' */
+    }
+  
+    .contenido-principal {
+      margin-left: 0; /* Restaura el margen izquierdo para el contenido principal */
+    }
+  
+    /* Ajusta la posición del botón en pantallas más pequeñas */
+    .contenido-principal .buttonVer {
+      left: 10px;
+    }
+  }
+  
