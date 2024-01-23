@@ -118,7 +118,7 @@ const ParteAlta = () => {
                 <>
                   <div className="media bg-light shadow-sm rounded border-dark m-5">
                     <img
-                      src={`http://localhost:3001/imagescabana/${
+                      src={`https://el-cielo.vercel.app/imagescabana/${
                         item.Clave_Cabaña
                       }/${
                         imageLisObj[item.Clave_Cabaña] &&
